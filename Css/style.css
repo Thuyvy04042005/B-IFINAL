@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {width:100%;height:60px;clear: both}
+.menu ul{margin:0 ;padding :0;list-style:none; display:flex}
+.logo{padding-top: 25px ;padding-left: 100px}
+.menu{ padding-top:20px}
+.menu ul li a {padding: 10px 20px; text-decoration: none; color: #2e2e2e}
+.menu ul li a:hover{background-color:rgba(172,172,172,0.60); color:white;border-radius:15px}
+.logo{padding:15px}
+.ic{padding:10px}
+.ic a{padding:10px 10px}
+.ic a:hover{background-color:rgba(172,172,172,0.60);color: white;border-radius:15px;justify-content:center}
+.head a{background-color:darkred;height:3px;left:0; bot:-10px}
+.texthead{color:#666666;text-align: center; margin-bottom: 50px}
+main{width:100%;min-height:800px}
+
+.vien{border: 1px solid darkred;border-radius:8px;padding:8px;position:relative; overflow: hidden}
+.icon{width:80%;height:45px;position:absolute;left:10%;top: -15%;display:flex;justify-content:space-around;transition:all 1s}
+.icon a{width:45px;heigth:45px;background-color: darkred;border-radius:50%;color:white;display:flex;justify-content:center;align-items:center;text-decoration:none}
+.icon a:hover{background-color:darkgray;color:darkred}
+.vien:hover .icon{top:40%}
+
+.banner{width:100%;min-height:300px}
+.caption{width:30%;text-align:left;position:absolute;top:15%;left:10%
+	}
+.p{color:red;text-align:center; margin-top:40px;margin-bottom: 20px}
+.h{text-align:center}
+#feature{width:100%;min-height:700px;background-image: url("../Image/bg2.png");background-repeat:no-repeat;background-size: cover;background-position:bottom center}
+.gach-chan{border-bottom: 2px solid darkred}
+.pt-30{padding-top:30px}
+.text-do{color:darkred}
+.vien-trang{width: 100%;border: 1px solid white; padding:30px}
+#feature a{text-decoration:none;color:darkred;cursor:pointer}
+#feature a:hover{color:white}
+
+.shadow{width:100%;min-height:300px;border:1px solid darkgray;box-shadow:5px 5px 5px gray;padding:30px}
+#contact{width:100%;min-height:600px;background-image: url("../Image/Banner2.png");background-repeat:no-repeat;background-size: cover;background-position:center center}
+.form-control{padding :8px;width:100%;margin-bottom:10px}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+width: 12px;height: 12px; }
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; }
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}  
+#slide .owl-nav .owl-prev{ position:absolute; left: 5%;}
+#slide .owl-nav [class*='owl-']:hover {
+background:none; border: none;
+color:darkred; text-decoration: none; }
